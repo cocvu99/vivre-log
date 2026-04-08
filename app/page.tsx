@@ -69,12 +69,12 @@ export default function Home() {
 
                 {/* Markdown Content (Styled via Tailwind Prose) */}
                 <div className="prose max-w-none 
-                  prose-headings:text-[16px] prose-headings:font-bold prose-headings:text-gray-800 prose-headings:mb-3 prose-headings:mt-6 first:prose-headings:mt-0
-                  prose-p:text-[15px] prose-p:text-gray-600 prose-p:leading-relaxed
-                  prose-ul:list-none prose-ul:pl-0 prose-ul:space-y-3
-                  prose-li:relative prose-li:pl-5 prose-li:text-[15px] prose-li:text-gray-600 prose-li:leading-relaxed
+                  prose-headings:text-[15px] prose-headings:font-bold prose-headings:text-gray-800 prose-headings:mb-3 prose-headings:mt-6 first:prose-headings:mt-0
+                  prose-p:text-[14.5px] prose-p:text-gray-600 prose-p:leading-relaxed
+                  prose-ul:list-none prose-ul:pl-0 prose-ul:space-y-2.5
+                  prose-li:relative prose-li:pl-4 prose-li:text-[14.5px] prose-li:text-gray-600 prose-li:leading-relaxed
                   marker:content-none
-                  [&>ul>li::before]:content-[''] [&>ul>li::before]:absolute [&>ul>li::before]:w-1 [&>ul>li::before]:h-1 [&>ul>li::before]:bg-gray-300 [&>ul>li::before]:rounded-full [&>ul>li::before]:left-1 [&>ul>li::before]:top-[10px]
+                  [&>ul>li::before]:content-[''] [&>ul>li::before]:absolute [&>ul>li::before]:w-1 [&>ul>li::before]:h-1 [&>ul>li::before]:bg-gray-300 [&>ul>li::before]:rounded-full [&>ul>li::before]:left-0 [&>ul>li::before]:top-[10px]
                 ">
                   <ReactMarkdown remarkPlugins={[remarkGfm]}>
                     {log.content}
